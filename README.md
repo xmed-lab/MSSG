@@ -49,7 +49,7 @@ Or use the SPM module to generate candidate proposals for each histology image, 
 
 ```shell
 cd SPM
-python SPM.py 
+python SPM.py --train_image_path ../glas/training_images --output_root result --nConv 3 --cluster_num 5
 ```
 
 
