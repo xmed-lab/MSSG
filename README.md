@@ -7,7 +7,7 @@ Qixiang ZHANG, Yi LI, Cheng XUE, Xiaomeng LI*, "Morphology-inspired Unsupervised
 ### 1. Introduction
 This MSSG framework is designed for unsupervised gland segmentation on histology images, containing two modules. The first Selective Proposal Mining (SPM) module generates proposals for different gland sub-regions. And the Morphology-aware Semantic Grouping (MSG) module groups the semantics of the sub-region proposal to obtain comprehensive knowledge about glands.
 
-![figure](fig\figure.png)
+![figure](fig/figure.png)
 
 
 
