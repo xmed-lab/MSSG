@@ -55,18 +55,13 @@ Install MMSegmentation codebase, see [documentation](https://mmsegmentation.read
 
 ### 4. Training for SPM Module
 
-**You can simply download the pre-generated proposal map from [Link to Proposal Map](https://pan.baidu.com/s/1xOYjcilH-8VtvYvwXPoK3g) with extracted code 9s7t**
+**You can simply download the pre-generated proposal map from [Link to Proposal Map](https://pan.baidu.com/s/1wDJ7JVcT0KgeUa-03gGLBg) with extracted code rzgp**
 
-Or use the SPM module to generate candidate proposals for each histology image
-
-```shell
-python SPM/SPM.py
-```
-
-Utilize the empirical cue to select gland sub-region from the candidate proposals
+Or use the SPM module to generate candidate proposals for each histology image, and use the empirical cue to select gland sub-region proposals
 
 ```shell
-python select_proposal.py
+cd SPM
+python SPM.py 
 ```
 
 
@@ -88,3 +83,15 @@ Train the segmentation model with MSG modules.
 cd MSG
 bash tools/dist_train.sh configs/pspnet_mssg/pspnet_wres38-d8_10k_histo.py 4 runs/mssg
 ```
+
+
+
+### 6. Results and Visualization of Pseudo-masks
+
+| Method                                        | mIOU   | Weight                                                       | Pseudo-mask                                                  |
+| --------------------------------------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Our MSSG                                      | 62.72% | [Download Link](https://pan.baidu.com/s/1JmoOuNmpdmaK6vcONcWr7g) (Extracted Code: jjey) | [Download Link](https://pan.baidu.com/s/1BvjmzHeXpS--ucmmrhVuMQ) (Extracted Code: 9zvb) |
+| SGSCN [[1](https://arxiv.org/abs/2107.04934)] | 52.61% | Coming Soon                                                  | Coming Soon                                                  |
+| PiCIE [[2](https://arxiv.org/abs/2103.17070)] | 48.77% | Coming Soon                                                  | Coming Soon                                                  |
+
+*The backbone of all methods above are the same, i.e., PSPNet
