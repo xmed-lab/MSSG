@@ -32,18 +32,6 @@ Download GlaS dataset from [Official Website](https://warwick.ac.uk/fac/cross_fa
                   └── ...
 ```
 
-
-
-**Or download [resources](https://pan.baidu.com/s/1htY5nZacceXj_m2FlY8uXw) (dataset, crop image, and weights) with extract code llb3, then link to codes.**
-
-```shell
-git clone https://github.com/XMed-Lab/MSSG.git
-cd MSSG
-ln -s MSSG_resources/glas_SPM SPM/glas
-ln -s MSSG_resources/glas_MSG MSG/glas
-ln -s MSSG_resources/weights MSG/weights
-```
-
 Install Python library dependencies
 ```shell
 pip install -r requirements.txt
