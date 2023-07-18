@@ -27,7 +27,7 @@ Download GlaS dataset from [Official Website](https://warwick.ac.uk/fac/cross_fa
             ├── training_images/
             │     ├── xxxxxxxxx.bmp
             │     └── ...
-            └── training_annotations/
+            └── training_gts/
                   ├── xxxxxxxxx.bmp
                   └── ...
 ```
@@ -55,7 +55,7 @@ Install MMSegmentation codebase, see [documentation](https://mmsegmentation.read
 
 ### 4. Training for SPM Module
 
-**You can simply download the pre-generated proposal map from [resources](https://pan.baidu.com/s/1htY5nZacceXj_m2FlY8uXw) with extracted code kopl**
+**You can simply download the pre-generated proposal map from [Link to Proposal Map](https://pan.baidu.com/s/1xOYjcilH-8VtvYvwXPoK3g) with extracted code 9s7t**
 
 Or use the SPM module to generate candidate proposals for each histology image
 
