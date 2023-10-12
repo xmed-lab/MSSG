@@ -1,2 +1,2 @@
-## Code of MSG module will come soon
+## Code of MSG module will come after the MIA journal version is accepted
 
