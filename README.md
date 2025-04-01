@@ -139,7 +139,7 @@ bash tools/dist_train.sh configs/pspnet_mssg/pspnet_wres38-d8_10k_histo.py 4 run
 
 *The backbone of all methods above are the same, i.e., PSPNet
 
-## Citation
+### Citation
 
 ```tex
 @article{zhang2024glandsam,
@@ -149,6 +149,8 @@ bash tools/dist_train.sh configs/pspnet_mssg/pspnet_wres38-d8_10k_histo.py 4 run
   year={2024},
   publisher={IEEE}
 }
+```
+```tex
 @inproceedings{zhang2023morphology,
   title={Morphology-inspired unsupervised gland segmentation via selective semantic grouping},
   author={Zhang, Qixiang and Li, Yi and Xue, Cheng and Li, Xiaomeng},
@@ -158,4 +160,5 @@ bash tools/dist_train.sh configs/pspnet_mssg/pspnet_wres38-d8_10k_histo.py 4 run
   organization={Springer}
 }
 ```
-
+### Acknowledgement
+MSSG is built upon [MMSegmentation](https://mmsegmentation.readthedocs.io/en/latest/), and GlandSAM is built upon [SAM](https://github.com/facebookresearch/segment-anything), [Med-SAM](https://github.com/bowang-lab/MedSAM), and [Fine-tune-SAM](https://github.com/mazurowski-lab/finetune-SAM)
