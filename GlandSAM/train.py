@@ -162,7 +162,7 @@ def train_model(trainloader, valloader, dir_checkpoint,epochs):
                         boxes=None,
                         masks=None,
                     )
-                    pred, un_known = sam.mask_decoder(
+                    pred, feature, iou = sam.mask_decoder(
                                     image_embeddings=img_emb,
                                     image_pe=sam.prompt_encoder.get_dense_pe(), 
                                     sparse_prompt_embeddings=sparse_emb,
