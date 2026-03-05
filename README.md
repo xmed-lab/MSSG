@@ -37,7 +37,7 @@ cd GlandSAM
 python glas_patch.py
 ```
 
-Download the pre-extracted proposal maps from [Link to Proposal Map](https://pan.baidu.com/s/1wDJ7JVcT0KgeUa-03gGLBg), and the pseudo-labels of MSSG from   [Download Link](https://pan.baidu.com/s/1BvjmzHeXpS--ucmmrhVuMQ) (Extracted Code: 9zvb), place the dataset as following:
+Download the pre-extracted proposal maps from [Link to Proposal Map](https://pan.baidu.com/s/1wDJ7JVcT0KgeUa-03gGLBg) (Extracted Code: rzgp), and the pseudo-labels of MSSG from   [Download Link](https://pan.baidu.com/s/1BvjmzHeXpS--ucmmrhVuMQ) (Extracted Code: 9zvb), place the dataset as following:
 
 ```shell
 /datasets/
