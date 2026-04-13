@@ -63,6 +63,12 @@ cd GlandSAM
 bash train.sh $gpu_id
 ```
 
+### Test GlandSAM
+```shell
+cd GlandSAM
+bash test.sh $gpu_id 2D-SAM_vit_b_decoder_lora_glas_seg_noprompt
+```
+
 ## MSSG
 
 Qixiang ZHANG, Yi LI, Cheng XUE, Xiaomeng LI*, "Morphology-inspired Unsupervised Gland Segmentation via Selective Semantic Grouping", MICCAI 2023 (Accepted).
